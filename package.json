@@ -1,6 +1,6 @@
 {
   "name": "react-native-shimmer-text",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Cross‑platform Shimmer Text component for React Native (iOS/Android) and Web.",
   "license": "MIT",
   "repository": {
