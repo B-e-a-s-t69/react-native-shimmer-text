@@ -2,9 +2,19 @@
 
 ![Demo](https://github.com/user-attachments/assets/070c68ba-05cb-40bf-91e0-213bd52f97ca)
 
-> 💡 **Building a full mobile app?** Check out [Ship Mobile Fast](https://shipmobilefast.com) - The #1 React Native Expo boilerplate to build and ship mobile apps in days, not weeks. Includes authentication, payments, AI integration, and more!
->
-> <img src="https://shipmobilefast.s3.us-east-1.amazonaws.com/hero/1.png" width="300" alt="Ship Mobile Fast" />
+<div align="center">
+
+**💡 Building a full mobile app?**
+
+Check out [**Ship Mobile Fast**](https://shipmobilefast.com) - The #1 React Native Expo boilerplate to build and ship mobile apps in days, not weeks.
+
+<img src="https://shipmobilefast.s3.us-east-1.amazonaws.com/hero/1.png" width="400" alt="Ship Mobile Fast" />
+
+*Authentication • Payments • AI Integration • And More!*
+
+</div>
+
+---
 
 <p align="center">
   <a href="https://www.npmjs.com/package/react-native-shimmer-text">
