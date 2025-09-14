@@ -1,6 +1,9 @@
 import { ShimmerColors } from "./types";
 
-export const defaultShimmerColors: { light: ShimmerColors; dark: ShimmerColors } = {
+export const defaultShimmerColors: {
+  light: ShimmerColors;
+  dark: ShimmerColors;
+} = {
   light: {
     text: "#cccccc",
     shimmer: {
@@ -18,4 +21,3 @@ export const defaultShimmerColors: { light: ShimmerColors; dark: ShimmerColors }
     },
   },
 };
-

@@ -28,7 +28,7 @@ export function ShimmerText({
   };
   const sizeConfig = textSizes[size];
   const defaultWidth =
-    width ?? Math.max(children.length * sizeConfig.fontSize * 0.6, 100);
+    width ?? Math.max((children?.length || 0) * sizeConfig.fontSize * 0.6, 100);
   const defaultHeight =
     height ?? sizeConfig.height ?? sizeConfig.fontSize * 1.2;
 
@@ -57,7 +57,7 @@ export function ShimmerText({
               { fontWeight: bold ? "bold" : "normal" },
             ]}
           >
-            {children}
+            {children || ""}
           </Text>
         }
       >
