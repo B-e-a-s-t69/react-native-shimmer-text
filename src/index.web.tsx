@@ -59,8 +59,8 @@ export default function ShimmerText({
     bold === undefined
       ? (style as any)?.fontWeight ?? "bold"
       : bold
-      ? "bold"
-      : "normal";
+        ? "bold"
+        : "normal";
 
   const spanStyle: React.CSSProperties = {
     display: "inline-block",
@@ -109,4 +109,3 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
-

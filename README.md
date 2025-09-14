@@ -2,10 +2,25 @@
 
 Cross‑platform Shimmer Text component for React Native (iOS/Android) and Web.
 
-Install in your app:
+## Installation
 
-```
+Choose your preferred package manager:
+
+### Yarn (recommended)
+```bash
 yarn add react-native-shimmer-text
+expo install react-native-reanimated @react-native-masked-view/masked-view
+```
+
+### npm
+```bash
+npm install react-native-shimmer-text
+expo install react-native-reanimated @react-native-masked-view/masked-view
+```
+
+### pnpm
+```bash
+pnpm add react-native-shimmer-text
 expo install react-native-reanimated @react-native-masked-view/masked-view
 ```
 
@@ -22,3 +37,27 @@ export default function Example() {
   );
 }
 ```
+
+## Development
+
+This project supports multiple package managers. Choose one and stick with it throughout development:
+
+### Yarn (primary)
+```bash
+yarn install
+yarn start
+```
+
+### npm
+```bash
+npm install
+npm start
+```
+
+### pnpm
+```bash
+pnpm install
+pnpm start
+```
+
+> **Note**: The project uses `yarn.lock` as the primary lock file. If you use npm or pnpm, your local lock files will be gitignored to avoid conflicts.

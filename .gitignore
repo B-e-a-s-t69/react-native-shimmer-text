@@ -3,6 +3,11 @@ node_modules/
 .pnp
 .pnp.js
 
+# Package manager lock files (keep only yarn.lock for consistency)
+package-lock.json
+pnpm-lock.yaml
+# yarn.lock is kept in git for primary dependency resolution
+
 # Build output
 lib/
 dist/
