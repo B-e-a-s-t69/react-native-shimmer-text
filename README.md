@@ -1,31 +1,39 @@
 # react-native-shimmer-text
-![Image](https://github.com/user-attachments/assets/070c68ba-05cb-40bf-91e0-213bd52f97ca)
 
-Cross‑platform Shimmer Text component for React Native (iOS/Android) and Web.
+![Demo](https://github.com/user-attachments/assets/070c68ba-05cb-40bf-91e0-213bd52f97ca)
 
-## Installation
+> 💡 **Building a full mobile app?** Check out [Ship Mobile Fast](https://shipmobilefast.com) - The #1 React Native Expo boilerplate to build and ship mobile apps in days, not weeks. Includes authentication, payments, AI integration, and more!
 
-Choose your preferred package manager:
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-native-shimmer-text">
+    <img src="https://img.shields.io/npm/v/react-native-shimmer-text?style=flat-square" alt="NPM version" />
+  </a>
+  <a href="https://www.npmjs.com/package/react-native-shimmer-text">
+    <img src="https://img.shields.io/npm/dm/react-native-shimmer-text?style=flat-square" alt="NPM downloads" />
+  </a>
+  <a href="/LICENSE">
+    <img src="https://img.shields.io/npm/l/react-native-shimmer-text?style=flat-square" alt="License" />
+  </a>
+</p>
 
-### Yarn (recommended)
-```bash
-yarn add react-native-shimmer-text
-expo install react-native-reanimated @react-native-masked-view/masked-view
-```
+Cross-platform shimmer text component for React Native (iOS, Android, Web) with customizable animations and theme support.
 
-### npm
+## ✨ Features
+
+- Cross-platform support (iOS, Android, Web)
+- Customizable duration, direction, colors
+- Theme-aware (light/dark mode)
+- Predefined sizes (xs to 9xl)
+- Smooth animations with react-native-reanimated
+
+## 📦 Installation
+
 ```bash
 npm install react-native-shimmer-text
 expo install react-native-reanimated @react-native-masked-view/masked-view
 ```
 
-### pnpm
-```bash
-pnpm add react-native-shimmer-text
-expo install react-native-reanimated @react-native-masked-view/masked-view
-```
-
-Usage:
+## 🚀 Usage
 
 ```tsx
 import ShimmerText from 'react-native-shimmer-text';
@@ -34,31 +42,65 @@ export default function Example() {
   return (
     <ShimmerText size="lg" duration={3} direction="ltr">
       Thinking...
-    </ShimmerText>
+    </-ShimmerText>
   );
 }
 ```
 
-## Development
+## ⚙️ Props
 
-This project supports multiple package managers. Choose one and stick with it throughout development:
+| Prop             | Type                                              | Default     | Description                      |
+| ---------------- | ------------------------------------------------- | ----------- | -------------------------------- |
+| `children`       | `string`                                          | `undefined` | Text content                     |
+| `style`          | `TextStyle`                                       | `undefined` | Text styles                      |
+| `shimmerStyle`   | `ViewStyle` or `WebShimmerStyle`                  | `undefined` | Shimmer effect styles            |
+| `containerStyle` | `ViewStyle`                                       | `undefined` | Container styles                 |
+| `duration`       | `number`                                          | `3`         | Animation duration (seconds)     |
+| `bold`           | `boolean`                                         | `true`      | Bold text                        |
+| `highlightWidth` | `number`                                          | `undefined` | Shimmer width percentage (0-100) |
+| `direction`      | `'ltr'` or `'rtl'`                                | `'ltr'`     | Animation direction              |
+| `angle`          | `number`                                          | `100`       | Gradient angle (degrees)         |
+| `size`           | `TextSize`                                        | `'md'`      | Text size (`'xs'` to `'9xl'`)    |
+| `colors`         | `{ light?: ShimmerColors, dark?: ShimmerColors }` | `undefined` | Theme colors                     |
+| `width`          | `number`                                          | `undefined` | Custom width                     |
+| `height`         | `number`                                          | `undefined` | Custom height                    |
 
-### Yarn (primary)
-```bash
-yarn install
-yarn start
+### `TextSize`
+
+`'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl' | '7xl' | '9xl'`
+
+### `ShimmerColors`
+
+```ts
+interface ShimmerColors {
+  text: string;
+  shimmer: {
+    start: string;
+    middle: string;
+    end: string;
+  };
+}
 ```
 
-### npm
-```bash
-npm install
-npm start
+## 🎨 Custom Colors
+
+```tsx
+const customColors = {
+  light: {
+    text: "#333333",
+    shimmer: { start: "#e0e0e0", middle: "#f5f5f5", end: "#e0e0e0" },
+  },
+  dark: {
+    text: "#cccccc",
+    shimmer: { start: "#424242", middle: "#616161", end: "#424242" },
+  },
+};
+
+<ShimmerText size="2xl" colors={customColors}>
+  Custom Colors
+</ShimmerText>;
 ```
 
-### pnpm
-```bash
-pnpm install
-pnpm start
-```
+## License
 
-> **Note**: The project uses `yarn.lock` as the primary lock file. If you use npm or pnpm, your local lock files will be gitignored to avoid conflicts.
+MIT
