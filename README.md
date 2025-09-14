@@ -1,5 +1,5 @@
 # react-native-shimmer-text
-![Uploading shimmer.gif…]()
+![Image](https://github.com/user-attachments/assets/070c68ba-05cb-40bf-91e0-213bd52f97ca)
 
 Cross‑platform Shimmer Text component for React Native (iOS/Android) and Web.
 
