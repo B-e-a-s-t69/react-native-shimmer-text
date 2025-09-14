@@ -8,9 +8,9 @@
 
 Check out [**Ship Mobile Fast**](https://shipmobilefast.com) - The #1 React Native Expo boilerplate to build and ship mobile apps in days, not weeks.
 
-<img src="https://shipmobilefast.s3.us-east-1.amazonaws.com/hero/1.png" width="400" alt="Ship Mobile Fast" />
+[<img src="https://shipmobilefast.s3.us-east-1.amazonaws.com/hero/1.png" width="400" alt="Ship Mobile Fast" />](https://shipmobilefast.com)
 
-*Authentication • Payments • AI Integration • And More!*
+_Authentication • Payments • AI Integration • And More!_
 
 </div>
 
@@ -48,13 +48,13 @@ expo install react-native-reanimated @react-native-masked-view/masked-view
 ## 🚀 Usage
 
 ```tsx
-import ShimmerText from 'react-native-shimmer-text';
+import ShimmerText from "react-native-shimmer-text";
 
 export default function Example() {
   return (
     <ShimmerText size="lg" duration={3} direction="ltr">
       Thinking...
-    </-ShimmerText>
+    </ShimmerText>
   );
 }
 ```
